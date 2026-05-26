@@ -5,7 +5,7 @@ const branchs = [
         title: "AIM JAPANESE LANGUAGE ACADEMY",
         address:
             "Block # C-98/1, Bat Tala, Beside CTG Road, Staff Quarter Link Road, Rasulbagh, Siddhirganj, Narayanganj",
-        phone: "01789499139,01931102115",
+        phone: ["01789499139", "01931102115"],
         email: "aimedu.jp@gmail.com",
     },
 ];

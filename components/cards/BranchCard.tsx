@@ -1,7 +1,7 @@
 interface Props {
   title: string;
   address: string;
-  phone: string;
+  phone: string[];
   email: string;
 }
 
@@ -27,12 +27,16 @@ export default function BranchCard({
 
         <div>
           <p className="text-sm font-medium text-on-surface">Phone</p>
-          <a
-            href={`tel:${phone.split(",")[0].trim()}`}
-            className="text-body-sm text-primary hover:underline"
-          >
-            {phone}
-          </a>
+          <div className="text-body-sm text-primary">
+            {phone.map((item, index) => (
+              <span key={item}>
+                <a href={`tel:${item.trim()}`} className="hover:underline">
+                  {item.trim()}
+                </a>
+                {index !== phone.length - 1 && ", "}
+              </span>
+            ))}
+          </div>
         </div>
 
         <div>
