@@ -68,11 +68,11 @@ export default function About() {
                   />
                 </div>
 
-                <h2 className="mt-2 text-primary text-2xl sm:text-3xl font-headline-lg">
+                <h2 className="mt-5 text-primary text-2xl sm:text-3xl font-headline-lg">
                   S. M. ARIF KAMAL
                 </h2>
 
-                <div className="mt-5 text-secondary text-sm md:text-base uppercase tracking-wider">
+                <div className="mt-2 text-secondary text-sm md:text-base uppercase tracking-wider">
                   Chief Executive Officer <br /> (Name Of Representative)
                 </div>
               </div>
@@ -88,12 +88,12 @@ export default function About() {
                   />
                 </div>
 
-                <h2 className="mt-2 text-primary text-2xl sm:text-3xl font-headline-lg">
+                <h2 className="mt-5 text-primary text-2xl sm:text-3xl font-headline-lg">
                   DR. HARUN OR RASHID
                 </h2>
 
-                <div className="mt-5 text-secondary text-sm md:text-base uppercase tracking-wider">
-                  Language Instructor <br /> (Name Of Representative)
+                <div className="mt-2 text-secondary text-sm md:text-base uppercase tracking-wider">
+                  Language Instructor
                 </div>
               </div>
 
