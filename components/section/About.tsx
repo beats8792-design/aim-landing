@@ -17,7 +17,7 @@ const aboutCards = [
   },
   {
     image: "/images/location (2).jpg",
-    title: "Japanese N5 Courses",
+    title: "Japanese N4 Courses",
     description:
       "Comprehensive training programs to help you achieve your target scores.",
   },
@@ -53,63 +53,58 @@ export default function About() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-8 items-center">
 
-          {/* Images */}
+          {/* Team Members */}
           <div className="lg:col-span-6">
-            <div className="grid grid-cols-2 gap-3 sm:gap-5">
+            <div className="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
 
-              <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
-                <Image
-                  src="/images/ceo (1).jpeg"
-                  alt="S. M. ARIF KAMAL"
-                  fill
-                  className="object-cover"
-                />
+              {/* Member 1 */}
+              <div className="text-center">
+                <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
+                  <Image
+                    src="/images/ceo (1).jpeg"
+                    alt="S. M. ARIF KAMAL"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+
+                <h2 className="mt-2 text-primary text-2xl sm:text-3xl font-headline-lg">
+                  S. M. ARIF KAMAL
+                </h2>
+
+                <div className="mt-5 text-secondary text-sm md:text-base uppercase tracking-wider">
+                  Chief Executive Officer <br /> (Name Of Representative)
+                </div>
               </div>
 
-              <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
-                <Image
-                  src="/images/ceo (2).jpeg"
-                  alt="DR. HARUN OR RASHID"
-                  fill
-                  className="object-cover"
-                />
+              {/* Member 2 */}
+              <div className="text-center">
+                <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
+                  <Image
+                    src="/images/ceo (2).jpeg"
+                    alt="DR. HARUN OR RASHID"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+
+                <h2 className="mt-2 text-primary text-2xl sm:text-3xl font-headline-lg">
+                  DR. HARUN OR RASHID
+                </h2>
+
+                <div className="mt-5 text-secondary text-sm md:text-base uppercase tracking-wider">
+                  Language Instructor <br /> (Name Of Representative)
+                </div>
               </div>
 
             </div>
           </div>
 
-          {/* Content */}
           <div className="lg:col-span-6 text-center lg:text-left">
-
-            {/* CEO 1 */}
-            <div className="mb-8">
-              <div className="text-secondary text-sm md:text-base uppercase tracking-wider">
-                <div>CHIEF EXECUTIVE OFFICER</div>
-              </div>
-
-              <h2 className="mt-2 text-primary text-2xl sm:text-3xl lg:text-4xl font-headline-lg">
-                DR. HARUN OR RASHID
-              </h2>
-            </div>
-            {/* CEO 2 */}
-            <div className="mb-8">
-              <div className="text-secondary text-sm md:text-base uppercase tracking-wider">
-                <div>LANGUAGE INSTRUCTOR</div>
-              </div>
-
-              <h2 className="mt-2 text-primary text-2xl sm:text-3xl lg:text-4xl font-headline-lg">
-                DULAL HOQUE MOLLAH
-              </h2>
-            </div>
-
-            <p className="text-sm sm:text-base leading-7 text-on-surface-variant max-w-2xl mx-auto lg:mx-0">
-              Welcome to AIM JAPANESE LANGUAGE ACADEMY — a trusted and professional overseas education consultancy and Japanese language training institution dedicated to helping Bangladeshi students achieve their dreams of international education and global career success.
-            </p>
-
-          </div>
-
-          <div className="lg:col-span-12 text-center lg:text-left">
             <p className="text-sm sm:text-base leading-7 text-on-surface-variant mx-auto lg:mx-0">
+              Welcome to AIM JAPANESE LANGUAGE ACADEMY — a trusted and professional overseas education consultancy and Japanese language training institution dedicated to helping Bangladeshi students achieve their dreams of international education and global career success.
+              <br />
+              <br />
               AIM JAPANESE LANGUAGE ACADEMY is under Aim Education, established with the vision of creating better educational opportunities for students who aspire to study abroad, especially in Japan. Our primary services include Japanese language education, student consultancy, overseas admission support, visa assistance, and complete guidance for studying abroad.
               <br />
               <br />
@@ -120,8 +115,11 @@ export default function About() {
               <br />
               <br />
               AIM JAPANESE LANGUAGE ACADEMY proudly operates a Japanese language training center in Bangladesh, where hundreds of students study Japanese language and culture every year under the supervision of experienced instructors. Our language programs are designed to prepare students for academic success, daily communication, and professional opportunities in Japan.
-              <br />
-              <br />
+              </p>
+          </div>
+
+          <div className="lg:col-span-12 text-center lg:text-left">
+            <p className="text-sm sm:text-base leading-7 text-on-surface-variant mx-auto lg:mx-0">
               We have maintained cooperative relationships with Japanese language schools and educational institutions in Japan.  As a complete “one-stop solution” for overseas education, AIM JAPANESE LANGUAGE ACADEMY provides comprehensive support services including:
               <br />
               <br />
@@ -141,6 +139,7 @@ export default function About() {
               At AIM JAPANESE LANGUAGE ACADEMY, we believe education has the power to transform lives and create global opportunities. Our mission is to empower students with the knowledge, skills, and international exposure necessary to build a brighter future.
             </p>
           </div>
+
           <div className="lg:col-span-12">
             {/* Swiper */}
             <Swiper
